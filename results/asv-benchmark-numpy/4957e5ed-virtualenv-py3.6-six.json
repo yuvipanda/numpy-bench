@@ -1,0 +1,1523 @@
+{
+    "benchmark_version": {
+        "bench_app.LaplaceInplace.time_it": "e912d48a31445b41d3721a0504b60aa72ddb03e4689b8386bdca5446901fa5ba",
+        "bench_app.MaxesOfDots.time_it": "5125f55ec647075ee73e4c18418eda050278d6edde30f4e0a1fb26944e80822e",
+        "bench_core.Core.time_arange_100": "6bfa19f959cbb6fc9a1ef29673b0d502712397f2be09878ffc11c508ed38365d",
+        "bench_core.Core.time_array_1": "1e673ac17796e0745b665c94779594ca8d1db1a8e91645a66ee2686bd0ec081c",
+        "bench_core.Core.time_array_empty": "005d1f902cea40842c3597de3f730ec081992f6cd7e2823f1cc8b2eec5b9a244",
+        "bench_core.Core.time_array_l": "1115ff5ee4f84703dceab00fb49b393c1b2ff2690bc681981a0fcd29f525739a",
+        "bench_core.Core.time_array_l1": "700a3f6e8924afc974d3400f8a13fccd4cec29f8f0633fff1381330fd94e6f67",
+        "bench_core.Core.time_array_l100": "5609312e5be2a417392d62375ba49012af757ae23a65e4905a72addcfdffc2b9",
+        "bench_core.Core.time_diag_l100": "0e204c2183302f889f591d8462bd98395e118e2e1ceeea4b7e1205a0c518712a",
+        "bench_core.Core.time_diagflat_l100": "e1b748daa7cc05737ac78cecd0f652adb0fb7d7ad930ece883ba829dfcefa56c",
+        "bench_core.Core.time_diagflat_l50_l50": "7251a995cd3995e462ab9de311be9c2a3f21b2652434ec9e5f3b6efe19c70cb5",
+        "bench_core.Core.time_dstack_l": "6cde4be3d53e715f7f0637daa91e3c3009f9e34779f5f1e330224058cf89a26f",
+        "bench_core.Core.time_empty_100": "e294e06f46cfba2ad53f3c86ecdc8c1db6a62c982256e314dab1d9043ee89c4b",
+        "bench_core.Core.time_eye_100": "263c28a45a99544377209c4e14ced908f3962f56d1236c90d0ae524685dbc532",
+        "bench_core.Core.time_eye_3000": "a02bb0c4c30fa7988e70278a5cf9e2b082990ef8031880efeca0735a0d5a1ebc",
+        "bench_core.Core.time_hstack_l": "5a9cf1c636c4a08ea95207499ba9a0ef91c6df4e28ec3cea60a7c70196d77c84",
+        "bench_core.Core.time_identity_100": "37e36709346912bfdcd938c6094a705730df17b06fde7286920b7ba39a869a84",
+        "bench_core.Core.time_identity_3000": "6d24a09d175ca8988d0fe271be94c98978382b45a83b799c8436e40fc781ed07",
+        "bench_core.Core.time_ones_100": "49c5cfc9da2f4dd2763b926806078a0e96a062734fd422a31a72bb8ac6c2a52b",
+        "bench_core.Core.time_tril_l10x10": "be0b5e9411fa9a46412a3d7e3808de5a3eef0d3c91902942eb8940fe8cd5d59f",
+        "bench_core.Core.time_triu_l10x10": "41f430496f537d4183d95954baf932df9301b6752e3f5eabe86d3c1c94bff7c4",
+        "bench_core.Core.time_vstack_l": "e9fcd243f974df570e622fcc34eb86c28ee5a3b11c827be0f80c38e16a9f14b2",
+        "bench_core.Core.time_zeros_100": "7f0f07d1383bd941b49a1099db8f8302d0f235e1dafde7ae819c9d392d44c42c",
+        "bench_core.CorrConv.time_convolve": "110934cc16c781cf51ef05e32d0376573f652f8d29632088314c80bb280373f5",
+        "bench_core.CorrConv.time_correlate": "9add985c37891263767f640a8caa0571b67ad9fc64587e26fa1403cdbfd46a20",
+        "bench_core.CountNonzero.time_count_nonzero": "62b6e7f8cdf194df64c7d1c6948ebe3b15027b688ac851c288b08bf147ea21c4",
+        "bench_core.CountNonzero.time_count_nonzero_axis": "0af13d073c97801eefc841f06735f316331f6898842d60d7077063e761cc3399",
+        "bench_core.CountNonzero.time_count_nonzero_multi_axis": "539135a464660d1aa5d3e83d59b995843997e3e31d51e8e284bfbd83ddad52d3",
+        "bench_core.Indices.time_indices": "2e230aa0719ef3ade68215df513a0a9aafa9d052ee5c2665559e3cea10bf9b51",
+        "bench_core.PackBits.time_packbits": "1e1cdd058f7cb55eb592d5d4a6d37273683a1ab55041e8c4b4ef7c29e5e55313",
+        "bench_core.PackBits.time_packbits_axis0": "3596f631e5980c6f39f8af219cc1bd8bc6cb97ed103fbb9008368ce8e4510c0c",
+        "bench_core.PackBits.time_packbits_axis1": "138b6e3b289ecabf2012d7d40274f69f848fc241c53fe21eb8dcf5ff77dc3dd2",
+        "bench_core.Temporaries.time_large": "d1f17784ab0409272af0ac08b2609f381d7257185a54f102e5114b3f8548fbf3",
+        "bench_core.Temporaries.time_large2": "23dea77757706f4d1d936f725e42bdc67c57d9b2f919e4da807d26ffe127ca51",
+        "bench_core.Temporaries.time_mid": "ad3406f4f9a8d7ad3c489e9028cedc12079758fe89272347756b7ea6e011a267",
+        "bench_core.Temporaries.time_mid2": "5ad422ecaa9af109188d4d1fcb95cdfe8fce8d2ed999ef8a241e3af3f1677bbe",
+        "bench_core.UnpackBits.time_unpackbits": "8a9b8fdeeee1d01e42caff6c2cd0efc371c72053e373203f670f49c399a19ef2",
+        "bench_core.UnpackBits.time_unpackbits_axis0": "b842c713e8a843ac2273fe2f17c174ecd27b28a6dace841dac2a13d913caa8f7",
+        "bench_core.UnpackBits.time_unpackbits_axis1": "7ac672e3d48251be042a8a5e4b8167dbb3b91f0af99b4f01f9d9287e7561cd73",
+        "bench_function_base.Bincount.time_bincount": "5d90f434eae543f580a5bb7f86e14c4663521f721b5a056155c61223dec781e4",
+        "bench_function_base.Bincount.time_weights": "21806334def6c126f9bb25e7ed2a2e4d9be995f373cd288727bb4d8e33bb11cb",
+        "bench_function_base.Histogram1D.time_fine_binning": "fd9a7cd0ee34b75f9eddd8c022b58b149397c82b4bd22de6fdb8b6e23c72e19c",
+        "bench_function_base.Histogram1D.time_full_coverage": "7a6b3163b94451004a6b27ea9f14f9aa6c0e86e437074c1558a53ad422af141a",
+        "bench_function_base.Histogram1D.time_small_coverage": "324b8676b5ae4c324e05671ffe2058af996d3cb540d845b6701cbae68eb26d99",
+        "bench_function_base.Histogram2D.time_fine_binning": "2f6f1c99fb221c95e8526dc863c8b1e72546468bf162e20e62539f171241ceae",
+        "bench_function_base.Histogram2D.time_full_coverage": "79d7122f11109af1751f17c3a36c5df88fa3cbb842d49a9859528c7ea37eaf4f",
+        "bench_function_base.Histogram2D.time_small_coverage": "e8ff2855bc11b18b68832bbd0917468aab6b272a86ec5cf2fd1ac46d3e39adf5",
+        "bench_function_base.Median.time_even": "c8988ee7d7d40ea51759e7382820be86368c85ad7a8b4ea6bc5d7cf039ad7d0b",
+        "bench_function_base.Median.time_even_inplace": "4de6b4c5c6fe319606c87af121f4b930d52e60a79b55f19d3e46e759968e8517",
+        "bench_function_base.Median.time_even_small": "ac742d35aa5ca0643a11510aa902569489bf2b225d71a6c8cc12d508167104d0",
+        "bench_function_base.Median.time_odd": "a7c0e54fb005a3f790f8317492d495aa785a5b118a0618dd2c24628ca8289c73",
+        "bench_function_base.Median.time_odd_inplace": "1bcac9a503f2c82792750b26cca859f5c4fa6791d4babfe6200a1c305a196fb0",
+        "bench_function_base.Median.time_odd_small": "0b2f23a3032466239bec187b638bc54306788a911d41d58aec416e4f023afb5c",
+        "bench_function_base.Percentile.time_percentile": "5fa63bb5a8b13b569acb81041b61348497a56baf4d93535578165158f78697b0",
+        "bench_function_base.Percentile.time_quartile": "a7a60e6bb5900bd1b6710d05fdd72798f76a270afd501a0c11b5917020cba619",
+        "bench_function_base.Select.time_select": "89f02a048ace03b6c3269e61811da1ece2dab2a456536225dafaccbc385920a7",
+        "bench_function_base.Select.time_select_larger": "a702e09750946268c44bce105934f13f28b8abe05f71a1f660e967804fafd305",
+        "bench_function_base.Sort.time_argsort": "cd13571c160cd607bd408fdef0a5ac9848458656011a46c22b053ee9c5b40598",
+        "bench_function_base.Sort.time_argsort_random": "c1a70d6eb13168c103783c29dc950f7322fa7f8fc39391380ba1a1ffef32f435",
+        "bench_function_base.Sort.time_sort": "6249cbe0ada6b3c541dabcdc5dfe1edf5eb5b56f2573f0ad5b49d61ec2d1d160",
+        "bench_function_base.Sort.time_sort_equal": "fad04601a87b2ed2015e03cdf99d2f4089231c44148aac807db514818414423a",
+        "bench_function_base.Sort.time_sort_inplace": "517171ab3a36cb6ae342b76c0766730ad67a563d305e10e45dde1bd1825de767",
+        "bench_function_base.Sort.time_sort_many_equal": "958a529394a591859f6ff7be9fb3495302ca4b4f343cd89889aa6508c1228f64",
+        "bench_function_base.Sort.time_sort_random": "220c7c1f6ffc4c139aa7c835e8426307d484821201e70343014f406fee2c6630",
+        "bench_function_base.Sort.time_sort_worst": "ace32d23c7f67f08c3993d54ad4d4b67cd9b56a42a8b95f830141cce64e1d6ec",
+        "bench_function_base.Where.time_1": "4b1f7a67860008b1fa0d58ddf29ace0f2ae879a9c19c7c0da4dc5ec9f9c3e075",
+        "bench_function_base.Where.time_2": "9aab7b536e740af04ddd0a32c17a5359fb6db1f56304795fbbef62ffe6a08a63",
+        "bench_function_base.Where.time_2_broadcast": "2e8c53780a92870cc414371e711fb188646805ba43e4159157bc05fa6b822e6f",
+        "bench_indexing.Indexing.time_op": "8e81170dbb15a18eb2b16d07e38db1fd58cca525b31b641bee28288c3a36d997",
+        "bench_indexing.IndexingSeparate.time_mmap_fancy_indexing": "d511fabf6c9d75bca8e0c77070a292a7498f23fd253bf151c2d0472028c8e375",
+        "bench_indexing.IndexingSeparate.time_mmap_slicing": "8aac8af758ba563381c8d021d9163a34a1652b3fcc129ec3555e9221a785b469",
+        "bench_indexing.IndexingStructured0D.time_array_all": "972e93e84611a6e63b6d9fe5d2019b3b54f98452ed2b237b58f4d58bbde4072b",
+        "bench_indexing.IndexingStructured0D.time_array_slice": "7884c48afe99676d42705373c0678163cd9358c0af75b3888566a78b64b1a0ae",
+        "bench_indexing.IndexingStructured0D.time_scalar_all": "3379d09fc19f9b870f4e9a930bc98b6cda21f792cfb9caf37992752c1ed04c9e",
+        "bench_indexing.IndexingStructured0D.time_scalar_slice": "ffcfe894af4580d854b9e8b2d38687ab9ee9c372cc0d50fd467e5eab42e974ce",
+        "bench_io.Copy.time_cont_assign": "afe3edcb5a646c1dd3efa7d2b5084f3759d877cec053e46705ac093e8bafbddd",
+        "bench_io.Copy.time_memcpy": "8e4099e96ab5221807bc0dd397733a0016f6f1bbbca8f5b800a8249a6e72bc7e",
+        "bench_io.Copy.time_memcpy_large_out_of_place": "862a7ab3e90582f36eae4004c8ed717e47fc8e8fa042cf49b6c12a5df1d6b4c7",
+        "bench_io.Copy.time_strided_assign": "61d585e17292b3b6a8aba7775561f3fbffe991d8655b2335bfdbf1c83de99915",
+        "bench_io.Copy.time_strided_copy": "e431dccc9dca8066e5245473c4aa724314bd94e7a7a5db466deb0e5cfcfab482",
+        "bench_io.CopyTo.time_copyto": "07950888132a0948b3c041b33f0f183b09ef914213babe934461be9b316d3221",
+        "bench_io.CopyTo.time_copyto_8_dense": "a73b9cc35e00d11b5cd0365076a62b7e2e3058a742abdac1ff0632af2afa63ce",
+        "bench_io.CopyTo.time_copyto_8_sparse": "6b3380a508d21032c997a83cb0f5f88e055d7c440b0e802e3856e0bba7b42699",
+        "bench_io.CopyTo.time_copyto_dense": "3fc8f0ec8a3cbc2c0e6efed89c18560d81b4f3055eedac3e4cc6fb8f0ea88b6f",
+        "bench_io.CopyTo.time_copyto_sparse": "8b3edb57c11fe88b4cb32c4a592531aad95d8749f99cdaa508ad926e7411faf0",
+        "bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv": "bc3091851c3292f70850fcd7eb14ea6ca5884ac7374b43c01263cad29f7f685a",
+        "bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime": "70095fef3c3845550dc9746c84e9f3b187983185c2e2c9d633fd2311bc7ba481",
+        "bench_io.LoadtxtCSVSkipRows.time_skiprows_csv": "3e404fbe768ffacb38decdc20759baa4c49675a337db49def01ca2ad8ec05f2b",
+        "bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype": "07198d0fb34f51c139a680e174f6a1285f06d00a9779f096ddd73c2969678198",
+        "bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv": "187d12d6e571661ff9c309e9eceac39f4c4f8767bb2b29b883971db26e32f00d",
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64": "8bece444885419bd9c391480f21d71718360ad70d21ff3a2e9f3686d6308bbaf",
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values": "5052543cb6a21400dfb8700019b08f81d3edfdeeb85fab940f5ce3e19325a976",
+        "bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv": "fb0b1e5cb45978fdd468073eb5f8645968a9ad1bb6fb7cd02dc1d7541791fefe",
+        "bench_io.Savez.time_vb_savez_squares": "bf5d4156c36f7ad4dd4e80c5e8f2585466a5a8337878eea473d19b7048bdca46",
+        "bench_lib.Pad.time_pad": "c3c9afd560b04e9f8ec00633ce180bee67c48c0447513b7aba436ffad8753c1e",
+        "bench_linalg.Eindot.time_dot_a_b": "90f6bce9991a3ec6b21cdb7d7612044fe2ab4a6f4baa4d09ad9f1532ae1ed729",
+        "bench_linalg.Eindot.time_dot_d_dot_b_c": "bfab7b7d665b79c0d6cd60cdebb0069198b221c435e1376c860d9547ffed5a3b",
+        "bench_linalg.Eindot.time_dot_trans_a_at": "5312f8c34eaec25db7229551b2d1b3a36a60967397e0d6c2a5f3dd2ef7c9da39",
+        "bench_linalg.Eindot.time_dot_trans_a_atc": "2aaf3ac46d4867f457064a7af0eb0bb69d2357840c425d21e2dca264654ab0e7",
+        "bench_linalg.Eindot.time_dot_trans_at_a": "3f4eddebca7bb5be74255d929a51634b57aa16904159810bcf998c44c82852fc",
+        "bench_linalg.Eindot.time_dot_trans_atc_a": "59ac3a40d150a1adaabb06fb254b4308c270e5cd305fb71a0422fc0d352fb0f6",
+        "bench_linalg.Eindot.time_einsum_i_ij_j": "b1430a7cb033c76f16784f9e1ad22a1823dc42f09801eff4f508a03fa87a5894",
+        "bench_linalg.Eindot.time_einsum_ij_jk_a_b": "f59314fd417195a44f7811dc7866043d4ac947486c2065d5e76667cd3efd9b2a",
+        "bench_linalg.Eindot.time_einsum_ijk_jil_kl": "ca6de720148ca6468c9b96c0a584634bfd37611a176acf7aceb072a6b6d523a9",
+        "bench_linalg.Eindot.time_inner_trans_a_a": "ff937aafce634b08b6e5a183252e02a459877dcfbfc6c7a2dc38a2a0bc2ec61f",
+        "bench_linalg.Eindot.time_inner_trans_a_ac": "75be1a984676fcf27a3f71634783126016d5893ab4806f17cc8fc5b9dd0481ed",
+        "bench_linalg.Eindot.time_matmul_a_b": "8de65997a20d204169d458a6c8dbd028e175482b00a244e57bee527705d8049d",
+        "bench_linalg.Eindot.time_matmul_d_matmul_b_c": "29cf075642392ec27e0bf81b3c28ed75d0470a4c9180bbe2a32673affb49c2dd",
+        "bench_linalg.Eindot.time_matmul_trans_a_at": "e3c80942140f34f39e469517660d62496f439c0e2b4e8f1e21e0097af4ec25a9",
+        "bench_linalg.Eindot.time_matmul_trans_a_atc": "80227843461ad996deb3d17b6b0e1ffc84a639663196e31a9bb49846e9e72da6",
+        "bench_linalg.Eindot.time_matmul_trans_at_a": "b9ed64e91ad9ac7937d4064ed9c1f7a432c0df7b6f912e029126146d76493e97",
+        "bench_linalg.Eindot.time_matmul_trans_atc_a": "7d84f2dd41ff3b11ae8fbd1c920eeb5f02793f02d93e39fa84bcb2815ea1a9c1",
+        "bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1": "e0e115ed5626e3f37056c84484c86e35bc62234e7781a233afc1e6a00c19c8c5",
+        "bench_linalg.Linalg.time_op": "af5f67d37b335b9d90510e579b0a142550c4a692f3409adff2c2fbcb835b5034",
+        "bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64": "b3b8b561aa8290b4ed0cc8aff549e83c4e3a04c634425538277ba330b51349c2",
+        "bench_ma.Concatenate.time_it": "c5266b41dad24011ae7e64de9ff53d788ddeb5d55cbb4cff451dc49af0c70298",
+        "bench_ma.Indexing.time_0d": "3af17398e826ce96894f8d9e3df13390b6057d8ab4646cccf3dafe3a6b530dea",
+        "bench_ma.Indexing.time_1d": "2dc73766d9324469077751387174000e90cd198310ae5d0b5bbfbe2b3a0b1d55",
+        "bench_ma.Indexing.time_scalar": "20842912a6d684f5d66c15e2ef6fc5994066b617ff4c673efb382b98bd70c190",
+        "bench_ma.MA.time_masked_array": "569cb888c6b874c3b64957cab882b3e04f2d830d4581ce6aed29c758d2c32fa2",
+        "bench_ma.MA.time_masked_array_l100": "1bd9f2518b045c4e7f662bb4528b56e49605d20fd412c8657d0ef38741838eb5",
+        "bench_ma.MA.time_masked_array_l100_t100": "5756fb2ab73509c5b839cd02f3317b36da59fd9b3eee66bad94c4cde42a86bb9",
+        "bench_ma.UFunc.time_1d": "3367abb12ea2e83d13287419c09a5fcfdec21cb8b976041105622e5f2455219a",
+        "bench_ma.UFunc.time_2d": "2f6eefd233384bed94c580db5fcefc09e11a86f0008ccf16cbf1dff95b0b9c23",
+        "bench_ma.UFunc.time_scalar": "4496f86f82cad9053c558f7f3b1f7a8ad9ccd4d18b3a7d5dd2e0dd1192c8e4d9",
+        "bench_ma.UFunc.time_scalar_1d": "98dfb3a1d0e42b2006cb34ac1dde59953825c9fbf5f1d3685a4ca3127525adc6",
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_duck": "b54211444ccedb1ab418dbbf6ec0f6a2ef4262f33dff86946a325e943e80ba0e",
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy": "a77448f26c942ff1b0caa4cfa8e496e7f3b84342a4b3b798fadfde02460e4a7a",
+        "bench_overrides.ArrayFunction.time_mock_concatenate_duck": "ca0f8a5a984c328b123d685cd3abebcfe69e74236884e9ae936604992f36247a",
+        "bench_overrides.ArrayFunction.time_mock_concatenate_many": "d63644407e7bb0c62ecd497191be5179221a5471d2679821ab9cd51e58e33b81",
+        "bench_overrides.ArrayFunction.time_mock_concatenate_mixed": "f0f836ffe9cd3cd7558defd3fcf150b87fed04847e82126cb3d0be71cf1db5d0",
+        "bench_overrides.ArrayFunction.time_mock_concatenate_numpy": "ba531ff260ae0e34362db5e75dc2787f752347a622d2ac57279a05124ea3c43a",
+        "bench_random.Permutation.time_permutation_1d": "c98b2b142749df1caad9e105a969d6d62e034bfb663829b5da54bf9a6be19155",
+        "bench_random.Permutation.time_permutation_2d": "2534ca6537208a3369271cd59dcda4de70211fd8bce524292e65ac272a23cd46",
+        "bench_random.Permutation.time_permutation_int": "788bae93c5c08bcba95c948d067e1fee69b05b1ac0198c896e2cf4c9907955a5",
+        "bench_random.Randint.time_randint_fast": "bb8c6b342d125e6ce85eba74f81e9a3f69eb3a1f4948921a73b680d3ea4f312e",
+        "bench_random.Randint.time_randint_slow": "97dcc24881c776455f5c6a04bec764909ac9a0e4f7cfde6413f8d60a487adbc5",
+        "bench_random.Randint_dtype.time_randint_fast": "686cd267595db36e1a5b21a65b9f0a77efb9cd65c4b1b7f631b7ffe955087d2b",
+        "bench_random.Randint_dtype.time_randint_slow": "5288dc43a24dc0ad0085d813bc9c7f1501cff277adbffe869256718c92d76bbd",
+        "bench_random.Random.time_rng": "20d7c6d641e664676dba02e39f4358735344639b5c0798301d8702c6d4b0cb1f",
+        "bench_random.Shuffle.time_100000": "008b63ed906c93eff862ba9a6aad85a0ed290deb009fa1085447a66b23e8d717",
+        "bench_reduce.AddReduce.time_axis_0": "2af9934f0fbbc8408edad22dfb037bd0861b919664055e5fe609f4058bffd1d9",
+        "bench_reduce.AddReduce.time_axis_1": "9e926386f8f433cfbcbea78e95c4f2cb3755951748b965430ab5e407be5d4b66",
+        "bench_reduce.AddReduceSeparate.time_reduce": "9fe950161a3a7c6883be4205a98ad6f3b268adcb3448bb900588c9a05f1b4d41",
+        "bench_reduce.AnyAll.time_all_fast": "4cd25b0c372a501c9f1a21fe06351b3b7dc042df730f950f5b7e8ae35391751e",
+        "bench_reduce.AnyAll.time_all_slow": "887513d961383f51b6ce15a5c3872ef8ada189ef0be33ed8f62c5ac1786e1fd8",
+        "bench_reduce.AnyAll.time_any_fast": "a22ca1e69b7ad6b5d989b008c449d9b339b8b5e210a42d00b1cf8c7bfd867a7d",
+        "bench_reduce.AnyAll.time_any_slow": "48f7671f06745db54a390c87f33f645b6e1719687da9d5e59a0cf917c99ef7cc",
+        "bench_reduce.MinMax.time_max": "514f3cab642bc43d526e91045a6374f6aca5840683583600a5d8cbe85fb787dc",
+        "bench_reduce.MinMax.time_min": "e6b22576b375226197a12de92f4a1cc57b3559e74d1fffbf7c304ae08ead1283",
+        "bench_reduce.SmallReduction.time_small": "6c036bc421f0fb669164ceb2814d8765d6f3a6c7c38f5e2e55a3fc00945c9468",
+        "bench_shape_base.Block.time_3d": "b9a48960b73fb3f85bfc2dc0e571c65492e2e23f6ba46efdbaa83c229a840ed3",
+        "bench_shape_base.Block.time_block_complicated": "f5020e81ec4b44cc8c43385d45447eb00773324ed075f3e140a83e6deea1b5b1",
+        "bench_shape_base.Block.time_block_simple_column_wise": "ace4adce497cb59167431a3cb0e9336e9a4ca74c5a028728f072cb377034afac",
+        "bench_shape_base.Block.time_block_simple_row_wise": "7e68cd3ac85d87ea0960b4e3480f3447d612752cc5da0d8e622d44883521fb9a",
+        "bench_shape_base.Block.time_nested": "76a91fd4afc8a0e86b6afd79d5f3ea4ecd9fbbef884ae0500b470509e9e8b67e",
+        "bench_shape_base.Block.time_no_lists": "6bc26f65802cda859473d4bbdd7c111e5084ace7bd39cca0c9ca3aad06eee9ea",
+        "bench_shape_base.Block2D.time_block2d": "93de8827eb35255e1f0daea4c5054d670f73b0c62c2cb54fc42a81e29c851ea8",
+        "bench_ufunc.ArgParsing.time_add_arg_parsing": "7f8c98d0d3e4d48d2e4c78bc17a51a7d437b9b658ebf673e6829d145b6f109ce",
+        "bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing": "ad65096c8033c570321d0bbb8effaa15bce7a6faab47e96c8848d61173fc5b40",
+        "bench_ufunc.Broadcast.time_broadcast": "131ce9ba025e2d78a4dfdbaf95871da67ac00aac41956c1ad64741a2102ec6c5",
+        "bench_ufunc.Custom.time_and_bool": "a86867e3b34ed9b571d5ef3232fb916555165cd1f489297b101f04a727403281",
+        "bench_ufunc.Custom.time_nonzero": "a2bfcc4d1a399fb5b9457fa59e9d2c10beefaeb8109557be1756181651549625",
+        "bench_ufunc.Custom.time_not_bool": "fabc3a193c9287d44cf4cff6d9352e67d1261c1a605327d0d5f5d29af1cc3b5c",
+        "bench_ufunc.Custom.time_or_bool": "d8cc3603bfff2d105d4e8d30e48ffa58120a715cf2920d7831270952b719b429",
+        "bench_ufunc.CustomInplace.time_char_or": "e17e62b7756bffe100ff86408f24dcfb06a25b928f488c08f96ef0db5607f861",
+        "bench_ufunc.CustomInplace.time_char_or_temp": "1be81c7b7584c25261a4190fbfcf024b7b724516f69cad112327ad0d40e5476e",
+        "bench_ufunc.CustomInplace.time_double_add": "f19662f4a311fc929de94204a4b67241b1bb5ccf947f71bac733c613ee769865",
+        "bench_ufunc.CustomInplace.time_double_add_temp": "1e74700f4180455a4703910e2f5c4fda2ebd6ee1401a18d1a1ca8f093f3710e3",
+        "bench_ufunc.CustomInplace.time_float_add": "b11f548bdfbecba94fc50571119e32ffe7d6d2bbab330966d2acd80a91550b51",
+        "bench_ufunc.CustomInplace.time_float_add_temp": "715b0deebbb271f4d643d0575a3b913ed3729b2562da829c102f64b902f3de4d",
+        "bench_ufunc.CustomInplace.time_int_or": "1e6eb0dc45e0d0d9a3dddce986d8940c73e4771e5e80bebc25eef75022122950",
+        "bench_ufunc.CustomInplace.time_int_or_temp": "8892315dfcc7e6bf5be252fc352286cca4e2b317312e17686096539d1ca30496",
+        "bench_ufunc.CustomScalar.time_add_scalar2": "6c5ed02e001dd9bafa33d7f7b38ceb98abf8cdf8467193e7c0f53f94cf1bbc81",
+        "bench_ufunc.CustomScalar.time_divide_scalar2": "c32304caa2530a08b1034bd1ca4e575a5b9349681d9dde77b5994b93d5898994",
+        "bench_ufunc.CustomScalar.time_divide_scalar2_inplace": "64e072c5d7cf47aa563db42bf4dea71a999c35f748b3f79a086af9c7cb266c92",
+        "bench_ufunc.CustomScalar.time_less_than_scalar2": "43e21cdb587cd06cf289354bcb31a9856168b6822ed5b5e599736c5c280aa660",
+        "bench_ufunc.Scalar.time_add_scalar": "eb95fd29e2ab6b42cbf524521b2f2318da4375c69e9eb9bd9367c5e2b2a30ea3",
+        "bench_ufunc.Scalar.time_add_scalar_conv": "bbf133739c730b558f163bfa0a41965f82312794363f18948bd93de0cdefc11a",
+        "bench_ufunc.Scalar.time_add_scalar_conv_complex": "ca23715a82f5300e9537e32b5a25944d9c56e195013449e49701a86f2600b87e",
+        "bench_ufunc.UFunc.time_ufunc_types": "5e9a778c538969f78e1a50b387862004b9261c57231bd40e2b48ff4b647e46d8"
+    },
+    "commit_hash": "4957e5ed4ef51beb8687e64c4f9c5315602d86aa",
+    "date": 1217623096000,
+    "ended_at": {
+        "bench_app.LaplaceInplace.time_it": 1544749244240,
+        "bench_app.MaxesOfDots.time_it": 1544749244240,
+        "bench_core.Core.time_arange_100": 1544749244240,
+        "bench_core.Core.time_array_1": 1544749244240,
+        "bench_core.Core.time_array_empty": 1544749244240,
+        "bench_core.Core.time_array_l": 1544749244240,
+        "bench_core.Core.time_array_l1": 1544749244240,
+        "bench_core.Core.time_array_l100": 1544749244240,
+        "bench_core.Core.time_diag_l100": 1544749244240,
+        "bench_core.Core.time_diagflat_l100": 1544749244240,
+        "bench_core.Core.time_diagflat_l50_l50": 1544749244241,
+        "bench_core.Core.time_dstack_l": 1544749244241,
+        "bench_core.Core.time_empty_100": 1544749244241,
+        "bench_core.Core.time_eye_100": 1544749244241,
+        "bench_core.Core.time_eye_3000": 1544749244241,
+        "bench_core.Core.time_hstack_l": 1544749244241,
+        "bench_core.Core.time_identity_100": 1544749244241,
+        "bench_core.Core.time_identity_3000": 1544749244241,
+        "bench_core.Core.time_ones_100": 1544749244241,
+        "bench_core.Core.time_tril_l10x10": 1544749244241,
+        "bench_core.Core.time_triu_l10x10": 1544749244241,
+        "bench_core.Core.time_vstack_l": 1544749244241,
+        "bench_core.Core.time_zeros_100": 1544749244241,
+        "bench_core.CorrConv.time_convolve": 1544749244242,
+        "bench_core.CorrConv.time_correlate": 1544749244242,
+        "bench_core.CountNonzero.time_count_nonzero": 1544749244242,
+        "bench_core.CountNonzero.time_count_nonzero_axis": 1544749244242,
+        "bench_core.CountNonzero.time_count_nonzero_multi_axis": 1544749244242,
+        "bench_core.Indices.time_indices": 1544749244242,
+        "bench_core.PackBits.time_packbits": 1544749244242,
+        "bench_core.PackBits.time_packbits_axis0": 1544749244242,
+        "bench_core.PackBits.time_packbits_axis1": 1544749244242,
+        "bench_core.Temporaries.time_large": 1544749244241,
+        "bench_core.Temporaries.time_large2": 1544749244241,
+        "bench_core.Temporaries.time_mid": 1544749244241,
+        "bench_core.Temporaries.time_mid2": 1544749244241,
+        "bench_core.UnpackBits.time_unpackbits": 1544749244242,
+        "bench_core.UnpackBits.time_unpackbits_axis0": 1544749244242,
+        "bench_core.UnpackBits.time_unpackbits_axis1": 1544749244242,
+        "bench_function_base.Bincount.time_bincount": 1544749244243,
+        "bench_function_base.Bincount.time_weights": 1544749244243,
+        "bench_function_base.Histogram1D.time_fine_binning": 1544749244242,
+        "bench_function_base.Histogram1D.time_full_coverage": 1544749244242,
+        "bench_function_base.Histogram1D.time_small_coverage": 1544749244242,
+        "bench_function_base.Histogram2D.time_fine_binning": 1544749244242,
+        "bench_function_base.Histogram2D.time_full_coverage": 1544749244243,
+        "bench_function_base.Histogram2D.time_small_coverage": 1544749244243,
+        "bench_function_base.Median.time_even": 1544749244243,
+        "bench_function_base.Median.time_even_inplace": 1544749244243,
+        "bench_function_base.Median.time_even_small": 1544749244243,
+        "bench_function_base.Median.time_odd": 1544749244243,
+        "bench_function_base.Median.time_odd_inplace": 1544749244243,
+        "bench_function_base.Median.time_odd_small": 1544749244243,
+        "bench_function_base.Percentile.time_percentile": 1544749244243,
+        "bench_function_base.Percentile.time_quartile": 1544749244243,
+        "bench_function_base.Select.time_select": 1544749244243,
+        "bench_function_base.Select.time_select_larger": 1544749244243,
+        "bench_function_base.Sort.time_argsort": 1544749244243,
+        "bench_function_base.Sort.time_argsort_random": 1544749244243,
+        "bench_function_base.Sort.time_sort": 1544749244243,
+        "bench_function_base.Sort.time_sort_equal": 1544749244244,
+        "bench_function_base.Sort.time_sort_inplace": 1544749244244,
+        "bench_function_base.Sort.time_sort_many_equal": 1544749244244,
+        "bench_function_base.Sort.time_sort_random": 1544749244244,
+        "bench_function_base.Sort.time_sort_worst": 1544749244244,
+        "bench_function_base.Where.time_1": 1544749244244,
+        "bench_function_base.Where.time_2": 1544749244244,
+        "bench_function_base.Where.time_2_broadcast": 1544749244244,
+        "bench_indexing.Indexing.time_op": 1544749244244,
+        "bench_indexing.IndexingSeparate.time_mmap_fancy_indexing": 1544749244244,
+        "bench_indexing.IndexingSeparate.time_mmap_slicing": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_array_all": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_array_slice": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_scalar_all": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_scalar_slice": 1544749244244,
+        "bench_io.Copy.time_cont_assign": 1544749244244,
+        "bench_io.Copy.time_memcpy": 1544749244245,
+        "bench_io.Copy.time_memcpy_large_out_of_place": 1544749244245,
+        "bench_io.Copy.time_strided_assign": 1544749244245,
+        "bench_io.Copy.time_strided_copy": 1544749244245,
+        "bench_io.CopyTo.time_copyto": 1544749244245,
+        "bench_io.CopyTo.time_copyto_8_dense": 1544749244245,
+        "bench_io.CopyTo.time_copyto_8_sparse": 1544749244245,
+        "bench_io.CopyTo.time_copyto_dense": 1544749244245,
+        "bench_io.CopyTo.time_copyto_sparse": 1544749244245,
+        "bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv": 1544749244245,
+        "bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime": 1544749244246,
+        "bench_io.LoadtxtCSVSkipRows.time_skiprows_csv": 1544749244245,
+        "bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype": 1544749244245,
+        "bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv": 1544749244245,
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64": 1544749244245,
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values": 1544749244246,
+        "bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv": 1544749244246,
+        "bench_io.Savez.time_vb_savez_squares": 1544749244245,
+        "bench_lib.Pad.time_pad": 1544749244246,
+        "bench_linalg.Eindot.time_dot_a_b": 1544749244246,
+        "bench_linalg.Eindot.time_dot_d_dot_b_c": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_a_at": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_a_atc": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_at_a": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_atc_a": 1544749244246,
+        "bench_linalg.Eindot.time_einsum_i_ij_j": 1544749244246,
+        "bench_linalg.Eindot.time_einsum_ij_jk_a_b": 1544749244246,
+        "bench_linalg.Eindot.time_einsum_ijk_jil_kl": 1544749244246,
+        "bench_linalg.Eindot.time_inner_trans_a_a": 1544749244246,
+        "bench_linalg.Eindot.time_inner_trans_a_ac": 1544749244246,
+        "bench_linalg.Eindot.time_matmul_a_b": 1544749244246,
+        "bench_linalg.Eindot.time_matmul_d_matmul_b_c": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_a_at": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_a_atc": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_at_a": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_atc_a": 1544749244247,
+        "bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1": 1544749244247,
+        "bench_linalg.Linalg.time_op": 1544749244247,
+        "bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64": 1544749244247,
+        "bench_ma.Concatenate.time_it": 1544749244248,
+        "bench_ma.Indexing.time_0d": 1544749244247,
+        "bench_ma.Indexing.time_1d": 1544749244247,
+        "bench_ma.Indexing.time_scalar": 1544749244247,
+        "bench_ma.MA.time_masked_array": 1544749244247,
+        "bench_ma.MA.time_masked_array_l100": 1544749244247,
+        "bench_ma.MA.time_masked_array_l100_t100": 1544749244247,
+        "bench_ma.UFunc.time_1d": 1544749244247,
+        "bench_ma.UFunc.time_2d": 1544749244247,
+        "bench_ma.UFunc.time_scalar": 1544749244248,
+        "bench_ma.UFunc.time_scalar_1d": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_duck": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_duck": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_many": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_mixed": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_numpy": 1544749244248,
+        "bench_random.Permutation.time_permutation_1d": 1544749244248,
+        "bench_random.Permutation.time_permutation_2d": 1544749244249,
+        "bench_random.Permutation.time_permutation_int": 1544749244249,
+        "bench_random.Randint.time_randint_fast": 1544749244248,
+        "bench_random.Randint.time_randint_slow": 1544749244248,
+        "bench_random.Randint_dtype.time_randint_fast": 1544749244248,
+        "bench_random.Randint_dtype.time_randint_slow": 1544749244248,
+        "bench_random.Random.time_rng": 1544749244248,
+        "bench_random.Shuffle.time_100000": 1544749244248,
+        "bench_reduce.AddReduce.time_axis_0": 1544749244249,
+        "bench_reduce.AddReduce.time_axis_1": 1544749244249,
+        "bench_reduce.AddReduceSeparate.time_reduce": 1544749244249,
+        "bench_reduce.AnyAll.time_all_fast": 1544749244249,
+        "bench_reduce.AnyAll.time_all_slow": 1544749244249,
+        "bench_reduce.AnyAll.time_any_fast": 1544749244249,
+        "bench_reduce.AnyAll.time_any_slow": 1544749244249,
+        "bench_reduce.MinMax.time_max": 1544749244249,
+        "bench_reduce.MinMax.time_min": 1544749244249,
+        "bench_reduce.SmallReduction.time_small": 1544749244249,
+        "bench_shape_base.Block.time_3d": 1544749244250,
+        "bench_shape_base.Block.time_block_complicated": 1544749244249,
+        "bench_shape_base.Block.time_block_simple_column_wise": 1544749244249,
+        "bench_shape_base.Block.time_block_simple_row_wise": 1544749244249,
+        "bench_shape_base.Block.time_nested": 1544749244250,
+        "bench_shape_base.Block.time_no_lists": 1544749244250,
+        "bench_shape_base.Block2D.time_block2d": 1544749244250,
+        "bench_ufunc.ArgParsing.time_add_arg_parsing": 1544749244251,
+        "bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing": 1544749244251,
+        "bench_ufunc.Broadcast.time_broadcast": 1544749244250,
+        "bench_ufunc.Custom.time_and_bool": 1544749244250,
+        "bench_ufunc.Custom.time_nonzero": 1544749244250,
+        "bench_ufunc.Custom.time_not_bool": 1544749244250,
+        "bench_ufunc.Custom.time_or_bool": 1544749244250,
+        "bench_ufunc.CustomInplace.time_char_or": 1544749244250,
+        "bench_ufunc.CustomInplace.time_char_or_temp": 1544749244250,
+        "bench_ufunc.CustomInplace.time_double_add": 1544749244250,
+        "bench_ufunc.CustomInplace.time_double_add_temp": 1544749244250,
+        "bench_ufunc.CustomInplace.time_float_add": 1544749244251,
+        "bench_ufunc.CustomInplace.time_float_add_temp": 1544749244251,
+        "bench_ufunc.CustomInplace.time_int_or": 1544749244251,
+        "bench_ufunc.CustomInplace.time_int_or_temp": 1544749244251,
+        "bench_ufunc.CustomScalar.time_add_scalar2": 1544749244251,
+        "bench_ufunc.CustomScalar.time_divide_scalar2": 1544749244251,
+        "bench_ufunc.CustomScalar.time_divide_scalar2_inplace": 1544749244251,
+        "bench_ufunc.CustomScalar.time_less_than_scalar2": 1544749244251,
+        "bench_ufunc.Scalar.time_add_scalar": 1544749244251,
+        "bench_ufunc.Scalar.time_add_scalar_conv": 1544749244251,
+        "bench_ufunc.Scalar.time_add_scalar_conv_complex": 1544749244251,
+        "bench_ufunc.UFunc.time_ufunc_types": 1544749244250
+    },
+    "env_name": "virtualenv-py3.6-six",
+    "params": {
+        "arch": "x86_64",
+        "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+        "machine": "asv-benchmark-numpy",
+        "os": "Linux 4.15.0-1025-gcp",
+        "python": "3.6",
+        "ram": "371481332",
+        "six": ""
+    },
+    "profiles": {},
+    "python": "3.6",
+    "requirements": {
+        "six": ""
+    },
+    "results": {
+        "bench_app.LaplaceInplace.time_it": {
+            "params": [
+                [
+                    "'inplace'",
+                    "'normal'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_app.MaxesOfDots.time_it": null,
+        "bench_core.Core.time_arange_100": null,
+        "bench_core.Core.time_array_1": null,
+        "bench_core.Core.time_array_empty": null,
+        "bench_core.Core.time_array_l": null,
+        "bench_core.Core.time_array_l1": null,
+        "bench_core.Core.time_array_l100": null,
+        "bench_core.Core.time_diag_l100": null,
+        "bench_core.Core.time_diagflat_l100": null,
+        "bench_core.Core.time_diagflat_l50_l50": null,
+        "bench_core.Core.time_dstack_l": null,
+        "bench_core.Core.time_empty_100": null,
+        "bench_core.Core.time_eye_100": null,
+        "bench_core.Core.time_eye_3000": null,
+        "bench_core.Core.time_hstack_l": null,
+        "bench_core.Core.time_identity_100": null,
+        "bench_core.Core.time_identity_3000": null,
+        "bench_core.Core.time_ones_100": null,
+        "bench_core.Core.time_tril_l10x10": null,
+        "bench_core.Core.time_triu_l10x10": null,
+        "bench_core.Core.time_vstack_l": null,
+        "bench_core.Core.time_zeros_100": null,
+        "bench_core.CorrConv.time_convolve": {
+            "params": [
+                [
+                    "50",
+                    "1000",
+                    "100000.0"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000",
+                    "10000.0"
+                ],
+                [
+                    "'valid'",
+                    "'same'",
+                    "'full'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.CorrConv.time_correlate": {
+            "params": [
+                [
+                    "50",
+                    "1000",
+                    "100000.0"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000",
+                    "10000.0"
+                ],
+                [
+                    "'valid'",
+                    "'same'",
+                    "'full'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.CountNonzero.time_count_nonzero": {
+            "params": [
+                [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                [
+                    "100",
+                    "10000",
+                    "1000000"
+                ],
+                [
+                    "<class 'bool'>",
+                    "<class 'int'>",
+                    "<class 'str'>",
+                    "<class 'object'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.CountNonzero.time_count_nonzero_axis": {
+            "params": [
+                [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                [
+                    "100",
+                    "10000",
+                    "1000000"
+                ],
+                [
+                    "<class 'bool'>",
+                    "<class 'int'>",
+                    "<class 'str'>",
+                    "<class 'object'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.CountNonzero.time_count_nonzero_multi_axis": {
+            "params": [
+                [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                [
+                    "100",
+                    "10000",
+                    "1000000"
+                ],
+                [
+                    "<class 'bool'>",
+                    "<class 'int'>",
+                    "<class 'str'>",
+                    "<class 'object'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.Indices.time_indices": null,
+        "bench_core.PackBits.time_packbits": {
+            "params": [
+                [
+                    "<class 'bool'>",
+                    "<class 'numpy.uint64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.PackBits.time_packbits_axis0": {
+            "params": [
+                [
+                    "<class 'bool'>",
+                    "<class 'numpy.uint64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.PackBits.time_packbits_axis1": {
+            "params": [
+                [
+                    "<class 'bool'>",
+                    "<class 'numpy.uint64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_core.Temporaries.time_large": null,
+        "bench_core.Temporaries.time_large2": null,
+        "bench_core.Temporaries.time_mid": null,
+        "bench_core.Temporaries.time_mid2": null,
+        "bench_core.UnpackBits.time_unpackbits": null,
+        "bench_core.UnpackBits.time_unpackbits_axis0": null,
+        "bench_core.UnpackBits.time_unpackbits_axis1": null,
+        "bench_function_base.Bincount.time_bincount": null,
+        "bench_function_base.Bincount.time_weights": null,
+        "bench_function_base.Histogram1D.time_fine_binning": null,
+        "bench_function_base.Histogram1D.time_full_coverage": null,
+        "bench_function_base.Histogram1D.time_small_coverage": null,
+        "bench_function_base.Histogram2D.time_fine_binning": null,
+        "bench_function_base.Histogram2D.time_full_coverage": null,
+        "bench_function_base.Histogram2D.time_small_coverage": null,
+        "bench_function_base.Median.time_even": null,
+        "bench_function_base.Median.time_even_inplace": null,
+        "bench_function_base.Median.time_even_small": null,
+        "bench_function_base.Median.time_odd": null,
+        "bench_function_base.Median.time_odd_inplace": null,
+        "bench_function_base.Median.time_odd_small": null,
+        "bench_function_base.Percentile.time_percentile": null,
+        "bench_function_base.Percentile.time_quartile": null,
+        "bench_function_base.Select.time_select": null,
+        "bench_function_base.Select.time_select_larger": null,
+        "bench_function_base.Sort.time_argsort": null,
+        "bench_function_base.Sort.time_argsort_random": null,
+        "bench_function_base.Sort.time_sort": null,
+        "bench_function_base.Sort.time_sort_equal": null,
+        "bench_function_base.Sort.time_sort_inplace": null,
+        "bench_function_base.Sort.time_sort_many_equal": null,
+        "bench_function_base.Sort.time_sort_random": null,
+        "bench_function_base.Sort.time_sort_worst": null,
+        "bench_function_base.Where.time_1": null,
+        "bench_function_base.Where.time_2": null,
+        "bench_function_base.Where.time_2_broadcast": null,
+        "bench_indexing.Indexing.time_op": {
+            "params": [
+                [
+                    "'indexes_'",
+                    "'indexes_rand_'"
+                ],
+                [
+                    "'I'",
+                    "':,I'",
+                    "'np.ix_(I, I)'"
+                ],
+                [
+                    "''",
+                    "'=1'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_indexing.IndexingSeparate.time_mmap_fancy_indexing": null,
+        "bench_indexing.IndexingSeparate.time_mmap_slicing": null,
+        "bench_indexing.IndexingStructured0D.time_array_all": null,
+        "bench_indexing.IndexingStructured0D.time_array_slice": null,
+        "bench_indexing.IndexingStructured0D.time_scalar_all": null,
+        "bench_indexing.IndexingStructured0D.time_scalar_slice": null,
+        "bench_io.Copy.time_cont_assign": {
+            "params": [
+                [
+                    "'int8'",
+                    "'int16'",
+                    "'float32'",
+                    "'float64'",
+                    "'complex64'",
+                    "'complex128'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.Copy.time_memcpy": {
+            "params": [
+                [
+                    "'int8'",
+                    "'int16'",
+                    "'float32'",
+                    "'float64'",
+                    "'complex64'",
+                    "'complex128'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.Copy.time_memcpy_large_out_of_place": {
+            "params": [
+                [
+                    "'int8'",
+                    "'int16'",
+                    "'float32'",
+                    "'float64'",
+                    "'complex64'",
+                    "'complex128'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.Copy.time_strided_assign": {
+            "params": [
+                [
+                    "'int8'",
+                    "'int16'",
+                    "'float32'",
+                    "'float64'",
+                    "'complex64'",
+                    "'complex128'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.Copy.time_strided_copy": {
+            "params": [
+                [
+                    "'int8'",
+                    "'int16'",
+                    "'float32'",
+                    "'float64'",
+                    "'complex64'",
+                    "'complex128'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.CopyTo.time_copyto": null,
+        "bench_io.CopyTo.time_copyto_8_dense": null,
+        "bench_io.CopyTo.time_copyto_8_sparse": null,
+        "bench_io.CopyTo.time_copyto_dense": null,
+        "bench_io.CopyTo.time_copyto_sparse": null,
+        "bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv": {
+            "params": [
+                [
+                    "10",
+                    "100",
+                    "10000",
+                    "100000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime": {
+            "params": [
+                [
+                    "20",
+                    "200",
+                    "2000",
+                    "20000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.LoadtxtCSVSkipRows.time_skiprows_csv": {
+            "params": [
+                [
+                    "0",
+                    "500",
+                    "10000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype": null,
+        "bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv": {
+            "params": [
+                [
+                    "'float32'",
+                    "'float64'",
+                    "'int32'",
+                    "'int64'",
+                    "'complex128'",
+                    "'str'",
+                    "'object'"
+                ],
+                [
+                    "10",
+                    "100",
+                    "10000",
+                    "100000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64": {
+            "params": [
+                [
+                    "550",
+                    "1000",
+                    "10000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values": {
+            "params": [
+                [
+                    "550",
+                    "1000",
+                    "10000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv": {
+            "params": [
+                [
+                    "2",
+                    "[1, 3]",
+                    "[1, 3, 5, 7]"
+                ]
+            ],
+            "result": null
+        },
+        "bench_io.Savez.time_vb_savez_squares": null,
+        "bench_lib.Pad.time_pad": {
+            "params": [
+                [
+                    "(1000,)",
+                    "(10, 100)",
+                    "(10, 10, 10)"
+                ],
+                [
+                    "1",
+                    "3",
+                    "(0, 5)"
+                ],
+                [
+                    "'constant'",
+                    "'edge'",
+                    "'linear_ramp'",
+                    "'mean'",
+                    "'reflect'",
+                    "'wrap'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_linalg.Eindot.time_dot_a_b": null,
+        "bench_linalg.Eindot.time_dot_d_dot_b_c": null,
+        "bench_linalg.Eindot.time_dot_trans_a_at": null,
+        "bench_linalg.Eindot.time_dot_trans_a_atc": null,
+        "bench_linalg.Eindot.time_dot_trans_at_a": null,
+        "bench_linalg.Eindot.time_dot_trans_atc_a": null,
+        "bench_linalg.Eindot.time_einsum_i_ij_j": null,
+        "bench_linalg.Eindot.time_einsum_ij_jk_a_b": null,
+        "bench_linalg.Eindot.time_einsum_ijk_jil_kl": null,
+        "bench_linalg.Eindot.time_inner_trans_a_a": null,
+        "bench_linalg.Eindot.time_inner_trans_a_ac": null,
+        "bench_linalg.Eindot.time_matmul_a_b": null,
+        "bench_linalg.Eindot.time_matmul_d_matmul_b_c": null,
+        "bench_linalg.Eindot.time_matmul_trans_a_at": null,
+        "bench_linalg.Eindot.time_matmul_trans_a_atc": null,
+        "bench_linalg.Eindot.time_matmul_trans_at_a": null,
+        "bench_linalg.Eindot.time_matmul_trans_atc_a": null,
+        "bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1": null,
+        "bench_linalg.Linalg.time_op": {
+            "params": [
+                [
+                    "'svd'",
+                    "'pinv'",
+                    "'det'",
+                    "'norm'"
+                ],
+                [
+                    "'int16'",
+                    "'float16'",
+                    "'int32'",
+                    "'float32'",
+                    "'int64'",
+                    "'float64'",
+                    "'complex64'",
+                    "'longfloat'",
+                    "'complex128'",
+                    "'complex256'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64": null,
+        "bench_ma.Concatenate.time_it": {
+            "params": [
+                [
+                    "'ndarray'",
+                    "'unmasked'",
+                    "'ndarray+masked'",
+                    "'unmasked+masked'",
+                    "'masked'"
+                ],
+                [
+                    "2",
+                    "100",
+                    "2000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ma.Indexing.time_0d": {
+            "params": [
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "1",
+                    "2"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ma.Indexing.time_1d": {
+            "params": [
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "1",
+                    "2"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ma.Indexing.time_scalar": {
+            "params": [
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "1",
+                    "2"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ma.MA.time_masked_array": null,
+        "bench_ma.MA.time_masked_array_l100": null,
+        "bench_ma.MA.time_masked_array_l100_t100": null,
+        "bench_ma.UFunc.time_1d": {
+            "params": [
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ma.UFunc.time_2d": {
+            "params": [
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ma.UFunc.time_scalar": {
+            "params": [
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ma.UFunc.time_scalar_1d": {
+            "params": [
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "True",
+                    "False"
+                ],
+                [
+                    "10",
+                    "100",
+                    "1000"
+                ]
+            ],
+            "result": null
+        },
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_duck": null,
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy": null,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_duck": null,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_many": null,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_mixed": null,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_numpy": null,
+        "bench_random.Permutation.time_permutation_1d": null,
+        "bench_random.Permutation.time_permutation_2d": null,
+        "bench_random.Permutation.time_permutation_int": null,
+        "bench_random.Randint.time_randint_fast": null,
+        "bench_random.Randint.time_randint_slow": null,
+        "bench_random.Randint_dtype.time_randint_fast": {
+            "params": [
+                [
+                    "'bool'",
+                    "'uint8'",
+                    "'uint16'",
+                    "'uint32'",
+                    "'uint64'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_random.Randint_dtype.time_randint_slow": {
+            "params": [
+                [
+                    "'bool'",
+                    "'uint8'",
+                    "'uint16'",
+                    "'uint32'",
+                    "'uint64'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_random.Random.time_rng": {
+            "params": [
+                [
+                    "'normal'",
+                    "'uniform'",
+                    "'weibull 1'",
+                    "'binomial 10 0.5'",
+                    "'poisson 10'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_random.Shuffle.time_100000": null,
+        "bench_reduce.AddReduce.time_axis_0": null,
+        "bench_reduce.AddReduce.time_axis_1": null,
+        "bench_reduce.AddReduceSeparate.time_reduce": {
+            "params": [
+                [
+                    "0",
+                    "1"
+                ],
+                [
+                    "'int16'",
+                    "'float16'",
+                    "'int32'",
+                    "'float32'",
+                    "'int64'",
+                    "'float64'",
+                    "'complex64'",
+                    "'longfloat'",
+                    "'complex128'",
+                    "'complex256'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_reduce.AnyAll.time_all_fast": null,
+        "bench_reduce.AnyAll.time_all_slow": null,
+        "bench_reduce.AnyAll.time_any_fast": null,
+        "bench_reduce.AnyAll.time_any_slow": null,
+        "bench_reduce.MinMax.time_max": {
+            "params": [
+                [
+                    "<class 'numpy.float32'>",
+                    "<class 'numpy.float64'>",
+                    "<class 'numpy.int64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_reduce.MinMax.time_min": {
+            "params": [
+                [
+                    "<class 'numpy.float32'>",
+                    "<class 'numpy.float64'>",
+                    "<class 'numpy.int64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_reduce.SmallReduction.time_small": null,
+        "bench_shape_base.Block.time_3d": {
+            "params": [
+                [
+                    "1",
+                    "10",
+                    "100"
+                ],
+                [
+                    "'block'",
+                    "'copy'"
+                ]
+            ],
+            "result": null
+        },
+        "bench_shape_base.Block.time_block_complicated": {
+            "params": [
+                [
+                    "1",
+                    "10",
+                    "100"
+                ]
+            ],
+            "result": null
+        },
+        "bench_shape_base.Block.time_block_simple_column_wise": {
+            "params": [
+                [
+                    "1",
+                    "10",
+                    "100"
+                ]
+            ],
+            "result": null
+        },
+        "bench_shape_base.Block.time_block_simple_row_wise": {
+            "params": [
+                [
+                    "1",
+                    "10",
+                    "100"
+                ]
+            ],
+            "result": null
+        },
+        "bench_shape_base.Block.time_nested": {
+            "params": [
+                [
+                    "1",
+                    "10",
+                    "100"
+                ]
+            ],
+            "result": null
+        },
+        "bench_shape_base.Block.time_no_lists": {
+            "params": [
+                [
+                    "1",
+                    "10",
+                    "100"
+                ]
+            ],
+            "result": null
+        },
+        "bench_shape_base.Block2D.time_block2d": {
+            "params": [
+                [
+                    "(16, 16)",
+                    "(32, 32)",
+                    "(64, 64)",
+                    "(128, 128)",
+                    "(256, 256)",
+                    "(512, 512)",
+                    "(1024, 1024)"
+                ],
+                [
+                    "'uint8'",
+                    "'uint16'",
+                    "'uint32'",
+                    "'uint64'"
+                ],
+                [
+                    "(2, 2)",
+                    "(4, 4)"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ufunc.ArgParsing.time_add_arg_parsing": {
+            "params": [
+                [
+                    "(array(1.), array(2.))",
+                    "(array(1.), array(2.), array(3.))",
+                    "(array(1.), array(2.), out=array(3.))",
+                    "(array(1.), array(2.), out=(array(3.),))",
+                    "(array(1.), array(2.), out=array(3.), subok=True, where=True)",
+                    "(array(1.), array(2.), subok=True)",
+                    "(array(1.), array(2.), subok=True, where=True)",
+                    "(array(1.), array(2.), array(3.), subok=True, where=True)"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing": {
+            "params": [
+                [
+                    "(array([0., 1.]))",
+                    "(array([0., 1.]), 0)",
+                    "(array([0., 1.]), axis=0)",
+                    "(array([0., 1.]), 0, None)",
+                    "(array([0., 1.]), axis=0, dtype=None)",
+                    "(array([0., 1.]), 0, None, array(0.))",
+                    "(array([0., 1.]), axis=0, dtype=None, out=array(0.))",
+                    "(array([0., 1.]), out=array(0.))"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ufunc.Broadcast.time_broadcast": null,
+        "bench_ufunc.Custom.time_and_bool": null,
+        "bench_ufunc.Custom.time_nonzero": null,
+        "bench_ufunc.Custom.time_not_bool": null,
+        "bench_ufunc.Custom.time_or_bool": null,
+        "bench_ufunc.CustomInplace.time_char_or": null,
+        "bench_ufunc.CustomInplace.time_char_or_temp": null,
+        "bench_ufunc.CustomInplace.time_double_add": null,
+        "bench_ufunc.CustomInplace.time_double_add_temp": null,
+        "bench_ufunc.CustomInplace.time_float_add": null,
+        "bench_ufunc.CustomInplace.time_float_add_temp": null,
+        "bench_ufunc.CustomInplace.time_int_or": null,
+        "bench_ufunc.CustomInplace.time_int_or_temp": null,
+        "bench_ufunc.CustomScalar.time_add_scalar2": {
+            "params": [
+                [
+                    "<class 'numpy.float32'>",
+                    "<class 'numpy.float64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ufunc.CustomScalar.time_divide_scalar2": {
+            "params": [
+                [
+                    "<class 'numpy.float32'>",
+                    "<class 'numpy.float64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ufunc.CustomScalar.time_divide_scalar2_inplace": {
+            "params": [
+                [
+                    "<class 'numpy.float32'>",
+                    "<class 'numpy.float64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ufunc.CustomScalar.time_less_than_scalar2": {
+            "params": [
+                [
+                    "<class 'numpy.float32'>",
+                    "<class 'numpy.float64'>"
+                ]
+            ],
+            "result": null
+        },
+        "bench_ufunc.Scalar.time_add_scalar": null,
+        "bench_ufunc.Scalar.time_add_scalar_conv": null,
+        "bench_ufunc.Scalar.time_add_scalar_conv_complex": null,
+        "bench_ufunc.UFunc.time_ufunc_types": {
+            "params": [
+                [
+                    "'abs'",
+                    "'absolute'",
+                    "'add'",
+                    "'arccos'",
+                    "'arccosh'",
+                    "'arcsin'",
+                    "'arcsinh'",
+                    "'arctan'",
+                    "'arctan2'",
+                    "'arctanh'",
+                    "'bitwise_and'",
+                    "'bitwise_not'",
+                    "'bitwise_or'",
+                    "'bitwise_xor'",
+                    "'cbrt'",
+                    "'ceil'",
+                    "'conj'",
+                    "'conjugate'",
+                    "'copysign'",
+                    "'cos'",
+                    "'cosh'",
+                    "'deg2rad'",
+                    "'degrees'",
+                    "'divide'",
+                    "'divmod'",
+                    "'equal'",
+                    "'exp'",
+                    "'exp2'",
+                    "'expm1'",
+                    "'fabs'",
+                    "'float_power'",
+                    "'floor'",
+                    "'floor_divide'",
+                    "'fmax'",
+                    "'fmin'",
+                    "'fmod'",
+                    "'frexp'",
+                    "'gcd'",
+                    "'greater'",
+                    "'greater_equal'",
+                    "'heaviside'",
+                    "'hypot'",
+                    "'invert'",
+                    "'isfinite'",
+                    "'isinf'",
+                    "'isnan'",
+                    "'isnat'",
+                    "'lcm'",
+                    "'ldexp'",
+                    "'left_shift'",
+                    "'less'",
+                    "'less_equal'",
+                    "'log'",
+                    "'log10'",
+                    "'log1p'",
+                    "'log2'",
+                    "'logaddexp'",
+                    "'logaddexp2'",
+                    "'logical_and'",
+                    "'logical_not'",
+                    "'logical_or'",
+                    "'logical_xor'",
+                    "'maximum'",
+                    "'minimum'",
+                    "'mod'",
+                    "'modf'",
+                    "'multiply'",
+                    "'negative'",
+                    "'nextafter'",
+                    "'not_equal'",
+                    "'positive'",
+                    "'power'",
+                    "'rad2deg'",
+                    "'radians'",
+                    "'reciprocal'",
+                    "'remainder'",
+                    "'right_shift'",
+                    "'rint'",
+                    "'sign'",
+                    "'signbit'",
+                    "'sin'",
+                    "'sinh'",
+                    "'spacing'",
+                    "'sqrt'",
+                    "'square'",
+                    "'subtract'",
+                    "'tan'",
+                    "'tanh'",
+                    "'true_divide'",
+                    "'trunc'"
+                ]
+            ],
+            "result": null
+        }
+    },
+    "started_at": {
+        "bench_app.LaplaceInplace.time_it": 1544749244240,
+        "bench_app.MaxesOfDots.time_it": 1544749244240,
+        "bench_core.Core.time_arange_100": 1544749244240,
+        "bench_core.Core.time_array_1": 1544749244240,
+        "bench_core.Core.time_array_empty": 1544749244240,
+        "bench_core.Core.time_array_l": 1544749244240,
+        "bench_core.Core.time_array_l1": 1544749244240,
+        "bench_core.Core.time_array_l100": 1544749244240,
+        "bench_core.Core.time_diag_l100": 1544749244240,
+        "bench_core.Core.time_diagflat_l100": 1544749244240,
+        "bench_core.Core.time_diagflat_l50_l50": 1544749244241,
+        "bench_core.Core.time_dstack_l": 1544749244241,
+        "bench_core.Core.time_empty_100": 1544749244241,
+        "bench_core.Core.time_eye_100": 1544749244241,
+        "bench_core.Core.time_eye_3000": 1544749244241,
+        "bench_core.Core.time_hstack_l": 1544749244241,
+        "bench_core.Core.time_identity_100": 1544749244241,
+        "bench_core.Core.time_identity_3000": 1544749244241,
+        "bench_core.Core.time_ones_100": 1544749244241,
+        "bench_core.Core.time_tril_l10x10": 1544749244241,
+        "bench_core.Core.time_triu_l10x10": 1544749244241,
+        "bench_core.Core.time_vstack_l": 1544749244241,
+        "bench_core.Core.time_zeros_100": 1544749244241,
+        "bench_core.CorrConv.time_convolve": 1544749244242,
+        "bench_core.CorrConv.time_correlate": 1544749244242,
+        "bench_core.CountNonzero.time_count_nonzero": 1544749244242,
+        "bench_core.CountNonzero.time_count_nonzero_axis": 1544749244242,
+        "bench_core.CountNonzero.time_count_nonzero_multi_axis": 1544749244242,
+        "bench_core.Indices.time_indices": 1544749244242,
+        "bench_core.PackBits.time_packbits": 1544749244242,
+        "bench_core.PackBits.time_packbits_axis0": 1544749244242,
+        "bench_core.PackBits.time_packbits_axis1": 1544749244242,
+        "bench_core.Temporaries.time_large": 1544749244241,
+        "bench_core.Temporaries.time_large2": 1544749244241,
+        "bench_core.Temporaries.time_mid": 1544749244241,
+        "bench_core.Temporaries.time_mid2": 1544749244241,
+        "bench_core.UnpackBits.time_unpackbits": 1544749244242,
+        "bench_core.UnpackBits.time_unpackbits_axis0": 1544749244242,
+        "bench_core.UnpackBits.time_unpackbits_axis1": 1544749244242,
+        "bench_function_base.Bincount.time_bincount": 1544749244243,
+        "bench_function_base.Bincount.time_weights": 1544749244243,
+        "bench_function_base.Histogram1D.time_fine_binning": 1544749244242,
+        "bench_function_base.Histogram1D.time_full_coverage": 1544749244242,
+        "bench_function_base.Histogram1D.time_small_coverage": 1544749244242,
+        "bench_function_base.Histogram2D.time_fine_binning": 1544749244242,
+        "bench_function_base.Histogram2D.time_full_coverage": 1544749244243,
+        "bench_function_base.Histogram2D.time_small_coverage": 1544749244243,
+        "bench_function_base.Median.time_even": 1544749244243,
+        "bench_function_base.Median.time_even_inplace": 1544749244243,
+        "bench_function_base.Median.time_even_small": 1544749244243,
+        "bench_function_base.Median.time_odd": 1544749244243,
+        "bench_function_base.Median.time_odd_inplace": 1544749244243,
+        "bench_function_base.Median.time_odd_small": 1544749244243,
+        "bench_function_base.Percentile.time_percentile": 1544749244243,
+        "bench_function_base.Percentile.time_quartile": 1544749244243,
+        "bench_function_base.Select.time_select": 1544749244243,
+        "bench_function_base.Select.time_select_larger": 1544749244243,
+        "bench_function_base.Sort.time_argsort": 1544749244243,
+        "bench_function_base.Sort.time_argsort_random": 1544749244243,
+        "bench_function_base.Sort.time_sort": 1544749244243,
+        "bench_function_base.Sort.time_sort_equal": 1544749244244,
+        "bench_function_base.Sort.time_sort_inplace": 1544749244244,
+        "bench_function_base.Sort.time_sort_many_equal": 1544749244244,
+        "bench_function_base.Sort.time_sort_random": 1544749244244,
+        "bench_function_base.Sort.time_sort_worst": 1544749244244,
+        "bench_function_base.Where.time_1": 1544749244244,
+        "bench_function_base.Where.time_2": 1544749244244,
+        "bench_function_base.Where.time_2_broadcast": 1544749244244,
+        "bench_indexing.Indexing.time_op": 1544749244244,
+        "bench_indexing.IndexingSeparate.time_mmap_fancy_indexing": 1544749244244,
+        "bench_indexing.IndexingSeparate.time_mmap_slicing": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_array_all": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_array_slice": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_scalar_all": 1544749244244,
+        "bench_indexing.IndexingStructured0D.time_scalar_slice": 1544749244244,
+        "bench_io.Copy.time_cont_assign": 1544749244244,
+        "bench_io.Copy.time_memcpy": 1544749244244,
+        "bench_io.Copy.time_memcpy_large_out_of_place": 1544749244245,
+        "bench_io.Copy.time_strided_assign": 1544749244245,
+        "bench_io.Copy.time_strided_copy": 1544749244245,
+        "bench_io.CopyTo.time_copyto": 1544749244245,
+        "bench_io.CopyTo.time_copyto_8_dense": 1544749244245,
+        "bench_io.CopyTo.time_copyto_8_sparse": 1544749244245,
+        "bench_io.CopyTo.time_copyto_dense": 1544749244245,
+        "bench_io.CopyTo.time_copyto_sparse": 1544749244245,
+        "bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv": 1544749244245,
+        "bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime": 1544749244246,
+        "bench_io.LoadtxtCSVSkipRows.time_skiprows_csv": 1544749244245,
+        "bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype": 1544749244245,
+        "bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv": 1544749244245,
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64": 1544749244245,
+        "bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values": 1544749244246,
+        "bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv": 1544749244246,
+        "bench_io.Savez.time_vb_savez_squares": 1544749244245,
+        "bench_lib.Pad.time_pad": 1544749244246,
+        "bench_linalg.Eindot.time_dot_a_b": 1544749244246,
+        "bench_linalg.Eindot.time_dot_d_dot_b_c": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_a_at": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_a_atc": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_at_a": 1544749244246,
+        "bench_linalg.Eindot.time_dot_trans_atc_a": 1544749244246,
+        "bench_linalg.Eindot.time_einsum_i_ij_j": 1544749244246,
+        "bench_linalg.Eindot.time_einsum_ij_jk_a_b": 1544749244246,
+        "bench_linalg.Eindot.time_einsum_ijk_jil_kl": 1544749244246,
+        "bench_linalg.Eindot.time_inner_trans_a_a": 1544749244246,
+        "bench_linalg.Eindot.time_inner_trans_a_ac": 1544749244246,
+        "bench_linalg.Eindot.time_matmul_a_b": 1544749244246,
+        "bench_linalg.Eindot.time_matmul_d_matmul_b_c": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_a_at": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_a_atc": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_at_a": 1544749244247,
+        "bench_linalg.Eindot.time_matmul_trans_atc_a": 1544749244247,
+        "bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1": 1544749244247,
+        "bench_linalg.Linalg.time_op": 1544749244247,
+        "bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64": 1544749244247,
+        "bench_ma.Concatenate.time_it": 1544749244248,
+        "bench_ma.Indexing.time_0d": 1544749244247,
+        "bench_ma.Indexing.time_1d": 1544749244247,
+        "bench_ma.Indexing.time_scalar": 1544749244247,
+        "bench_ma.MA.time_masked_array": 1544749244247,
+        "bench_ma.MA.time_masked_array_l100": 1544749244247,
+        "bench_ma.MA.time_masked_array_l100_t100": 1544749244247,
+        "bench_ma.UFunc.time_1d": 1544749244247,
+        "bench_ma.UFunc.time_2d": 1544749244247,
+        "bench_ma.UFunc.time_scalar": 1544749244248,
+        "bench_ma.UFunc.time_scalar_1d": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_duck": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_duck": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_many": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_mixed": 1544749244248,
+        "bench_overrides.ArrayFunction.time_mock_concatenate_numpy": 1544749244248,
+        "bench_random.Permutation.time_permutation_1d": 1544749244248,
+        "bench_random.Permutation.time_permutation_2d": 1544749244249,
+        "bench_random.Permutation.time_permutation_int": 1544749244249,
+        "bench_random.Randint.time_randint_fast": 1544749244248,
+        "bench_random.Randint.time_randint_slow": 1544749244248,
+        "bench_random.Randint_dtype.time_randint_fast": 1544749244248,
+        "bench_random.Randint_dtype.time_randint_slow": 1544749244248,
+        "bench_random.Random.time_rng": 1544749244248,
+        "bench_random.Shuffle.time_100000": 1544749244248,
+        "bench_reduce.AddReduce.time_axis_0": 1544749244249,
+        "bench_reduce.AddReduce.time_axis_1": 1544749244249,
+        "bench_reduce.AddReduceSeparate.time_reduce": 1544749244249,
+        "bench_reduce.AnyAll.time_all_fast": 1544749244249,
+        "bench_reduce.AnyAll.time_all_slow": 1544749244249,
+        "bench_reduce.AnyAll.time_any_fast": 1544749244249,
+        "bench_reduce.AnyAll.time_any_slow": 1544749244249,
+        "bench_reduce.MinMax.time_max": 1544749244249,
+        "bench_reduce.MinMax.time_min": 1544749244249,
+        "bench_reduce.SmallReduction.time_small": 1544749244249,
+        "bench_shape_base.Block.time_3d": 1544749244250,
+        "bench_shape_base.Block.time_block_complicated": 1544749244249,
+        "bench_shape_base.Block.time_block_simple_column_wise": 1544749244249,
+        "bench_shape_base.Block.time_block_simple_row_wise": 1544749244249,
+        "bench_shape_base.Block.time_nested": 1544749244250,
+        "bench_shape_base.Block.time_no_lists": 1544749244250,
+        "bench_shape_base.Block2D.time_block2d": 1544749244250,
+        "bench_ufunc.ArgParsing.time_add_arg_parsing": 1544749244251,
+        "bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing": 1544749244251,
+        "bench_ufunc.Broadcast.time_broadcast": 1544749244250,
+        "bench_ufunc.Custom.time_and_bool": 1544749244250,
+        "bench_ufunc.Custom.time_nonzero": 1544749244250,
+        "bench_ufunc.Custom.time_not_bool": 1544749244250,
+        "bench_ufunc.Custom.time_or_bool": 1544749244250,
+        "bench_ufunc.CustomInplace.time_char_or": 1544749244250,
+        "bench_ufunc.CustomInplace.time_char_or_temp": 1544749244250,
+        "bench_ufunc.CustomInplace.time_double_add": 1544749244250,
+        "bench_ufunc.CustomInplace.time_double_add_temp": 1544749244250,
+        "bench_ufunc.CustomInplace.time_float_add": 1544749244251,
+        "bench_ufunc.CustomInplace.time_float_add_temp": 1544749244251,
+        "bench_ufunc.CustomInplace.time_int_or": 1544749244251,
+        "bench_ufunc.CustomInplace.time_int_or_temp": 1544749244251,
+        "bench_ufunc.CustomScalar.time_add_scalar2": 1544749244251,
+        "bench_ufunc.CustomScalar.time_divide_scalar2": 1544749244251,
+        "bench_ufunc.CustomScalar.time_divide_scalar2_inplace": 1544749244251,
+        "bench_ufunc.CustomScalar.time_less_than_scalar2": 1544749244251,
+        "bench_ufunc.Scalar.time_add_scalar": 1544749244251,
+        "bench_ufunc.Scalar.time_add_scalar_conv": 1544749244251,
+        "bench_ufunc.Scalar.time_add_scalar_conv_complex": 1544749244251,
+        "bench_ufunc.UFunc.time_ufunc_types": 1544749244250
+    },
+    "version": 1
+}
