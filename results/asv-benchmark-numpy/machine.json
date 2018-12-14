@@ -1,0 +1,8 @@
+{
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "machine": "asv-benchmark-numpy",
+    "os": "Linux 4.15.0-1025-gcp",
+    "ram": "371481332",
+    "version": 1
+}
